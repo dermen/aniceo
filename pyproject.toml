@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aniceo"
+version = "0.1"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aniceo*"]
+
